@@ -1,0 +1,12 @@
+RDBMS(Realational Database Management System)
+It is an software and it is used to *manage* the database. 
+Manage stands for storing data in database, retriving data from database, updating old data with new data and deleteing unwanted data from database.
+To communicate with RDBMS software we are using structured query language.
+Edgar F codd introduced RDBMS software in year of 1970.
+Edgar F codd rules 
+   1. store data in form of table (Row/ column).
+   2. Only store single value in each and every cell.
+   3. create multiple table in database using RDBMS.
+   4. using key attributes we can build relation on between tables.
+   5. table and column names should unique.
+   6. Data entry should verified using * Datatype   * Constraints
