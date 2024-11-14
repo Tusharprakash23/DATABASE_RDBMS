@@ -1,0 +1,36 @@
+Introduction to Structured Query Lang:-
+              Also known as Sequal Query Lang , Sequal stands for structured english lang.
+              IBM researchers Roymond Boysee and Donald Chamberlin they introduced SQL in 1970.
+              It used to communicate with *Database Server* with the help RDBMS software.
+              It is an high level lang(Understand by Human).
+              It is not an case sensitive language but data present inside the table is case sensitive.
+              SQL each and every query must and should ends with semi-column(;).
+
+DataType:-
+           It is used to specify which type of data to be stored in particular column
+
+           Types of database:-
+                  1> Number
+                  2> Char
+                  3> Varchar / Varchar2
+                  4> Date
+                  5> Decimal
+
+            1> Number:- Syntax: Number(size).
+                        It is used to store only number values(0-9).
+                        Maxmium size for NUMBER datatype is "38 blocks".
+                        It follows variable length memory allocation.
+
+            2> CHAR:- Syntax:- Char(size)
+                      It is used to store alphanumeric value along with some special symbols.(0-9 , A-Z, # @ *)
+                      it must and should enclosed with single(' ').
+                      Max size for CHAR datatype is 2000 blocks.
+                      It follow fixed length memory allocation.
+
+            3> Varchar/varchar2 :- Varchar(size).
+                                   It is an updated version for CHAR datatype and it is used to store alphanumeric values along with some special symbol.
+                                   Max size for varchar is 2000 block and for varchar2 is 4000 blocks.
+                                   It follows varible length memory allocation.
+
+            4> Date :- It used to store date values using date formate
+                       DATE FORMATE: DD-MM-YYYY  /  DD-MM-YY
